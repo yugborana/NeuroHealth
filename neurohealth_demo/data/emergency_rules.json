@@ -1,0 +1,126 @@
+[
+  {
+    "rule_name": "cardiac_emergency",
+    "required_symptoms": [
+      "chest pain",
+      "shortness of breath"
+    ],
+    "risk_factors": {
+      "min_age": 50,
+      "conditions": [
+        "diabetes",
+        "heart disease",
+        "previous MI"
+      ]
+    },
+    "action": "Call 911 immediately",
+    "confidence_boost": 0.4
+  },
+  {
+    "rule_name": "cardiac_classic",
+    "required_symptoms": [
+      "chest pain",
+      "left arm pain",
+      "sweating"
+    ],
+    "risk_factors": {
+      "min_age": 40
+    },
+    "action": "Call 911 — classic heart attack presentation",
+    "confidence_boost": 0.5
+  },
+  {
+    "rule_name": "stroke_fast",
+    "required_symptoms": [
+      "sudden weakness one side",
+      "speech difficulty"
+    ],
+    "risk_factors": {
+      "min_age": 40
+    },
+    "action": "Call 911 — FAST protocol (Face Arms Speech Time)",
+    "confidence_boost": 0.5
+  },
+  {
+    "rule_name": "anaphylaxis",
+    "required_symptoms": [
+      "swelling throat",
+      "difficulty breathing"
+    ],
+    "risk_factors": {},
+    "action": "Use EpiPen + Call 911",
+    "confidence_boost": 0.5
+  },
+  {
+    "rule_name": "pe_signs",
+    "required_symptoms": [
+      "shortness of breath",
+      "chest pain",
+      "coughing blood"
+    ],
+    "risk_factors": {},
+    "action": "Call 911 — possible pulmonary embolism",
+    "confidence_boost": 0.4
+  },
+  {
+    "rule_name": "severe_bleeding",
+    "required_symptoms": [
+      "vomiting blood",
+      "blood in stool"
+    ],
+    "risk_factors": {
+      "conditions": [
+        "liver disease"
+      ]
+    },
+    "action": "Call 911 — GI hemorrhage",
+    "confidence_boost": 0.5
+  },
+  {
+    "rule_name": "meningitis",
+    "required_symptoms": [
+      "severe headache",
+      "fever",
+      "stiff neck"
+    ],
+    "risk_factors": {},
+    "action": "Go to ER immediately — possible meningitis",
+    "confidence_boost": 0.4
+  },
+  {
+    "rule_name": "diabetic_emergency",
+    "required_symptoms": [
+      "confusion",
+      "fruity breath",
+      "rapid breathing"
+    ],
+    "risk_factors": {
+      "conditions": [
+        "diabetes"
+      ]
+    },
+    "action": "Call 911 — possible DKA",
+    "confidence_boost": 0.4
+  },
+  {
+    "rule_name": "seizure",
+    "required_symptoms": [
+      "seizure",
+      "loss of consciousness"
+    ],
+    "risk_factors": {},
+    "action": "Call 911 — protect head, do NOT restrain",
+    "confidence_boost": 0.5
+  },
+  {
+    "rule_name": "severe_allergic_reaction",
+    "required_symptoms": [
+      "hives",
+      "swelling throat",
+      "low blood pressure"
+    ],
+    "risk_factors": {},
+    "action": "Use EpiPen + Call 911",
+    "confidence_boost": 0.5
+  }
+]

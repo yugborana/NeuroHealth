@@ -1,0 +1,17 @@
+{"agent": "IntentClassifier", "layer": "input", "time_ms": 0.8, "output_keys": ["intent", "intent_confidence"], "error": null, "timestamp": "2026-03-16T19:52:41.842653"}
+{"agent": "SymptomExtractor", "layer": "input", "time_ms": 0.0, "output_keys": ["extracted_symptoms"], "error": null, "timestamp": "2026-03-16T19:52:41.843653"}
+{"agent": "OntologyNormalizer", "layer": "input", "time_ms": 3.1, "output_keys": ["normalized_symptoms"], "error": null, "timestamp": "2026-03-16T19:52:41.847162"}
+{"agent": "ContextExtractor", "layer": "input", "time_ms": 5.8, "output_keys": ["user_context"], "error": null, "timestamp": "2026-03-16T19:52:41.852765"}
+{"agent": "MedicalKnowledge", "layer": "knowledge", "time_ms": 0.3, "output_keys": ["candidate_conditions"], "error": null, "timestamp": "2026-03-16T19:52:41.853770"}
+{"agent": "DrugInteraction", "layer": "knowledge", "time_ms": 0.1, "output_keys": ["drug_interactions"], "error": null, "timestamp": "2026-03-16T19:52:41.853770"}
+{"agent": "VectorRAG", "layer": "knowledge", "time_ms": 4.2, "output_keys": ["rag_context"], "error": null, "timestamp": "2026-03-16T19:52:41.858771"}
+{"agent": "DifferentialDiagnosis", "layer": "reasoning", "time_ms": 0.0, "output_keys": ["differential_diagnosis"], "error": null, "timestamp": "2026-03-16T19:52:41.858771"}
+{"agent": "UrgencyScoring", "layer": "reasoning", "time_ms": 0.0, "output_keys": ["urgency_score", "urgency_level"], "error": null, "timestamp": "2026-03-16T19:52:41.858771"}
+{"agent": "TreatmentSuggestion", "layer": "reasoning", "time_ms": 0.2, "output_keys": ["treatment_suggestions"], "error": null, "timestamp": "2026-03-16T19:52:41.858771"}
+{"agent": "EmergencyDetection", "layer": "safety", "time_ms": 0.2, "output_keys": ["emergency_flag", "urgency_score", "urgency_level"], "error": null, "timestamp": "2026-03-16T19:52:41.859771"}
+{"agent": "Contraindication", "layer": "safety", "time_ms": 0.0, "output_keys": ["contraindications"], "error": null, "timestamp": "2026-03-16T19:52:41.859771"}
+{"agent": "UncertaintyDetector", "layer": "safety", "time_ms": 0.0, "output_keys": ["uncertainty_flag"], "error": null, "timestamp": "2026-03-16T19:52:41.860276"}
+{"agent": "SafetyRouter", "layer": "safety", "time_ms": 0.0, "output_keys": ["safety_router_decision"], "error": null, "timestamp": "2026-03-16T19:52:41.860276"}
+{"agent": "ExplanationGenerator", "layer": "output", "time_ms": 1786.6, "output_keys": ["explanation"], "error": null, "timestamp": "2026-03-16T19:52:44.024496"}
+{"agent": "AppointmentScheduler", "layer": "output", "time_ms": 0.0, "output_keys": ["appointment"], "error": null, "timestamp": "2026-03-16T19:52:44.024496"}
+{"agent": "FollowUpAgent", "layer": "output", "time_ms": 0.0, "output_keys": ["followup_plan"], "error": null, "timestamp": "2026-03-16T19:52:44.024496"}

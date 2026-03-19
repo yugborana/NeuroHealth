@@ -1,0 +1,88 @@
+[
+  {
+    "specialist_type": "Cardiologist",
+    "condition_ids": [
+      "MI_001"
+    ],
+    "body_systems": [
+      "cardiovascular"
+    ],
+    "description": "Heart and blood vessel specialist"
+  },
+  {
+    "specialist_type": "Neurologist",
+    "condition_ids": [
+      "STR_001",
+      "MIG_001",
+      "TH_001"
+    ],
+    "body_systems": [
+      "neurological"
+    ],
+    "description": "Brain and nervous system specialist"
+  },
+  {
+    "specialist_type": "Pulmonologist",
+    "condition_ids": [
+      "PE_001",
+      "PNE_001"
+    ],
+    "body_systems": [
+      "respiratory"
+    ],
+    "description": "Lung and respiratory specialist"
+  },
+  {
+    "specialist_type": "Allergist",
+    "condition_ids": [
+      "ANA_001",
+      "AR_001"
+    ],
+    "body_systems": [
+      "immune"
+    ],
+    "description": "Allergy and immunology specialist"
+  },
+  {
+    "specialist_type": "Urologist",
+    "condition_ids": [
+      "PYE_001",
+      "UTI_001"
+    ],
+    "body_systems": [
+      "renal"
+    ],
+    "description": "Urinary tract and kidney specialist"
+  },
+  {
+    "specialist_type": "ENT",
+    "condition_ids": [
+      "STRP_001"
+    ],
+    "body_systems": [
+      "respiratory"
+    ],
+    "description": "Ear, Nose, and Throat specialist"
+  },
+  {
+    "specialist_type": "General Surgeon",
+    "condition_ids": [
+      "APP_001"
+    ],
+    "body_systems": [
+      "gastrointestinal"
+    ],
+    "description": "Surgical specialist"
+  },
+  {
+    "specialist_type": "Gastroenterologist",
+    "condition_ids": [
+      "GERD_001",
+      "GE_001"
+    ],
+    "body_systems": [
+      "gastrointestinal"
+    ],
+    "description": "Digestive system specialist"
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "drug_name": "warfarin",
+    "interacts_with": "aspirin",
+    "severity": "major",
+    "description": "Extreme bleeding risk — aspirin inhibits platelet aggregation while warfarin inhibits clotting factors",
+    "source": "openFDA/DrugBank"
+  },
+  {
+    "drug_name": "warfarin",
+    "interacts_with": "ibuprofen",
+    "severity": "major",
+    "description": "NSAIDs increase anticoagulant effect and GI bleeding risk",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "warfarin",
+    "interacts_with": "heparin",
+    "severity": "major",
+    "description": "Double anticoagulation — severe hemorrhage risk",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "warfarin",
+    "interacts_with": "naproxen",
+    "severity": "major",
+    "description": "NSAIDs increase bleeding risk with warfarin",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "sertraline",
+    "interacts_with": "sumatriptan",
+    "severity": "major",
+    "description": "Serotonin Syndrome risk — both increase serotonin levels",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "sertraline",
+    "interacts_with": "tramadol",
+    "severity": "major",
+    "description": "Serotonin Syndrome — combined serotonergic effect",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "sertraline",
+    "interacts_with": "ibuprofen",
+    "severity": "moderate",
+    "description": "SSRIs + NSAIDs increase GI bleeding risk",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "sertraline",
+    "interacts_with": "warfarin",
+    "severity": "moderate",
+    "description": "SSRIs may increase anticoagulant effect of warfarin",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "metformin",
+    "interacts_with": "contrast dye",
+    "severity": "major",
+    "description": "Lactic acidosis risk if kidneys cannot clear metformin after contrast",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "metformin",
+    "interacts_with": "alcohol",
+    "severity": "moderate",
+    "description": "Increased risk of lactic acidosis and hypoglycemia",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "lisinopril",
+    "interacts_with": "ibuprofen",
+    "severity": "major",
+    "description": "NSAIDs reduce ACE inhibitor effectiveness and worsen kidney function",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "lisinopril",
+    "interacts_with": "potassium supplements",
+    "severity": "major",
+    "description": "ACE inhibitors + potassium = hyperkalemia (dangerously high potassium)",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "lisinopril",
+    "interacts_with": "naproxen",
+    "severity": "major",
+    "description": "NSAIDs + ACE inhibitors = renal function decline",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "ibuprofen",
+    "interacts_with": "aspirin",
+    "severity": "moderate",
+    "description": "Ibuprofen can reduce cardioprotective effect of low-dose aspirin",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "ibuprofen",
+    "interacts_with": "warfarin",
+    "severity": "major",
+    "description": "Increased bleeding risk",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "sumatriptan",
+    "interacts_with": "sertraline",
+    "severity": "major",
+    "description": "Serotonin Syndrome risk",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "sumatriptan",
+    "interacts_with": "fluoxetine",
+    "severity": "major",
+    "description": "Serotonin Syndrome risk with any SSRI",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "amoxicillin",
+    "interacts_with": "warfarin",
+    "severity": "moderate",
+    "description": "Antibiotics may increase INR and bleeding risk",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "amoxicillin",
+    "interacts_with": "methotrexate",
+    "severity": "major",
+    "description": "Reduced renal clearance of methotrexate",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "atenolol",
+    "interacts_with": "verapamil",
+    "severity": "major",
+    "description": "Combined use can cause severe bradycardia and heart block",
+    "source": "openFDA"
+  },
+  {
+    "drug_name": "atenolol",
+    "interacts_with": "clonidine",
+    "severity": "moderate",
+    "description": "Rebound hypertension risk if clonidine stopped first",
+    "source": "openFDA"
+  }
+]

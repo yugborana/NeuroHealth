@@ -1,0 +1,222 @@
+[
+  {
+    "synonym": "tummy ache",
+    "canonical": "abdominal pain"
+  },
+  {
+    "synonym": "stomach ache",
+    "canonical": "abdominal pain"
+  },
+  {
+    "synonym": "belly pain",
+    "canonical": "abdominal pain"
+  },
+  {
+    "synonym": "cant breathe",
+    "canonical": "shortness of breath"
+  },
+  {
+    "synonym": "hard to breathe",
+    "canonical": "shortness of breath"
+  },
+  {
+    "synonym": "out of breath",
+    "canonical": "shortness of breath"
+  },
+  {
+    "synonym": "heart racing",
+    "canonical": "rapid heartbeat"
+  },
+  {
+    "synonym": "heart pounding",
+    "canonical": "rapid heartbeat"
+  },
+  {
+    "synonym": "throwing up",
+    "canonical": "vomiting"
+  },
+  {
+    "synonym": "puking",
+    "canonical": "vomiting"
+  },
+  {
+    "synonym": "being sick",
+    "canonical": "vomiting"
+  },
+  {
+    "synonym": "feeling sick",
+    "canonical": "nausea"
+  },
+  {
+    "synonym": "queasy",
+    "canonical": "nausea"
+  },
+  {
+    "synonym": "pins and needles",
+    "canonical": "numbness"
+  },
+  {
+    "synonym": "runny nose",
+    "canonical": "runny nose"
+  },
+  {
+    "synonym": "stuffy nose",
+    "canonical": "nasal congestion"
+  },
+  {
+    "synonym": "blocked nose",
+    "canonical": "nasal congestion"
+  },
+  {
+    "synonym": "peeing a lot",
+    "canonical": "frequent urination"
+  },
+  {
+    "synonym": "pee burns",
+    "canonical": "burning urination"
+  },
+  {
+    "synonym": "hurts to pee",
+    "canonical": "burning urination"
+  },
+  {
+    "synonym": "burning when I pee",
+    "canonical": "burning urination"
+  },
+  {
+    "synonym": "head pounding",
+    "canonical": "headache"
+  },
+  {
+    "synonym": "head hurts",
+    "canonical": "headache"
+  },
+  {
+    "synonym": "migraine",
+    "canonical": "headache"
+  },
+  {
+    "synonym": "the runs",
+    "canonical": "diarrhea"
+  },
+  {
+    "synonym": "loose stool",
+    "canonical": "diarrhea"
+  },
+  {
+    "synonym": "watery stool",
+    "canonical": "diarrhea"
+  },
+  {
+    "synonym": "acid reflux",
+    "canonical": "heartburn"
+  },
+  {
+    "synonym": "indigestion",
+    "canonical": "heartburn"
+  },
+  {
+    "synonym": "tired all the time",
+    "canonical": "fatigue"
+  },
+  {
+    "synonym": "exhausted",
+    "canonical": "fatigue"
+  },
+  {
+    "synonym": "no energy",
+    "canonical": "fatigue"
+  },
+  {
+    "synonym": "chest tightness",
+    "canonical": "chest pain"
+  },
+  {
+    "synonym": "chest pressure",
+    "canonical": "chest pain"
+  },
+  {
+    "synonym": "throat hurts",
+    "canonical": "sore throat"
+  },
+  {
+    "synonym": "scratchy throat",
+    "canonical": "sore throat"
+  },
+  {
+    "synonym": "hard to swallow",
+    "canonical": "difficulty swallowing"
+  },
+  {
+    "synonym": "food gets stuck",
+    "canonical": "difficulty swallowing"
+  },
+  {
+    "synonym": "high temperature",
+    "canonical": "fever"
+  },
+  {
+    "synonym": "hot forehead",
+    "canonical": "fever"
+  },
+  {
+    "synonym": "chills",
+    "canonical": "fever"
+  },
+  {
+    "synonym": "cold sweat",
+    "canonical": "sweating"
+  },
+  {
+    "synonym": "profuse sweating",
+    "canonical": "sweating"
+  },
+  {
+    "synonym": "blurry vision",
+    "canonical": "visual disturbances"
+  },
+  {
+    "synonym": "seeing spots",
+    "canonical": "visual disturbances"
+  },
+  {
+    "synonym": "light hurts eyes",
+    "canonical": "sensitivity to light"
+  },
+  {
+    "synonym": "eyes watering",
+    "canonical": "itchy eyes"
+  },
+  {
+    "synonym": "back pain",
+    "canonical": "flank pain"
+  },
+  {
+    "synonym": "side pain",
+    "canonical": "flank pain"
+  },
+  {
+    "synonym": "swollen glands",
+    "canonical": "swollen lymph nodes"
+  },
+  {
+    "synonym": "welts on skin",
+    "canonical": "hives"
+  },
+  {
+    "synonym": "rash",
+    "canonical": "hives"
+  },
+  {
+    "synonym": "face drooping",
+    "canonical": "facial drooping"
+  },
+  {
+    "synonym": "slurred speech",
+    "canonical": "speech difficulty"
+  },
+  {
+    "synonym": "cant talk properly",
+    "canonical": "speech difficulty"
+  }
+]

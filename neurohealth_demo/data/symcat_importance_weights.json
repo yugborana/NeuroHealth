@@ -1,0 +1,913 @@
+{
+  "metadata": {
+    "source": "SymCat (symcat.com) — derived from CDC patient records",
+    "repository": "https://github.com/teliov/symcat-to-synthea",
+    "description": "Symptom probabilities represent the percentage of patients with this condition who present with each symptom",
+    "note": "importance = probability_pct / 100 (normalized to 0.0-1.0 scale)"
+  },
+  "conditions": [
+    {
+      "condition_id": "MI_001",
+      "condition_name": "Myocardial infarction",
+      "symcat_name": "Heart attack",
+      "found_in_symcat": true,
+      "symptom_count": 12,
+      "symptoms": [
+        {
+          "symptom": "Sharp chest pain",
+          "probability_pct": 90.0,
+          "importance": 0.9
+        },
+        {
+          "symptom": "Shortness of breath",
+          "probability_pct": 56.0,
+          "importance": 0.56
+        },
+        {
+          "symptom": "Chest tightness",
+          "probability_pct": 37.0,
+          "importance": 0.37
+        },
+        {
+          "symptom": "Nausea",
+          "probability_pct": 25.0,
+          "importance": 0.25
+        },
+        {
+          "symptom": "Arm pain",
+          "probability_pct": 20.0,
+          "importance": 0.2
+        },
+        {
+          "symptom": "Fainting",
+          "probability_pct": 17.0,
+          "importance": 0.17
+        },
+        {
+          "symptom": "Sweating",
+          "probability_pct": 10.0,
+          "importance": 0.1
+        },
+        {
+          "symptom": "Lower body pain",
+          "probability_pct": 8.0,
+          "importance": 0.08
+        },
+        {
+          "symptom": "Heartburn",
+          "probability_pct": 8.0,
+          "importance": 0.08
+        },
+        {
+          "symptom": "Irregular heartbeat",
+          "probability_pct": 6.0,
+          "importance": 0.06
+        },
+        {
+          "symptom": "Burning chest pain",
+          "probability_pct": 5.0,
+          "importance": 0.05
+        },
+        {
+          "symptom": "Increased heart rate",
+          "probability_pct": 4.0,
+          "importance": 0.04
+        }
+      ]
+    },
+    {
+      "condition_id": "STR_001",
+      "condition_name": "Stroke",
+      "symcat_name": "Stroke",
+      "found_in_symcat": true,
+      "symptom_count": 12,
+      "symptoms": [
+        {
+          "symptom": "Focal weakness",
+          "probability_pct": 46.0,
+          "importance": 0.46
+        },
+        {
+          "symptom": "Dizziness",
+          "probability_pct": 43.0,
+          "importance": 0.43
+        },
+        {
+          "symptom": "Headache",
+          "probability_pct": 37.0,
+          "importance": 0.37
+        },
+        {
+          "symptom": "Loss of sensation",
+          "probability_pct": 37.0,
+          "importance": 0.37
+        },
+        {
+          "symptom": "Weakness",
+          "probability_pct": 33.0,
+          "importance": 0.33
+        },
+        {
+          "symptom": "Problems with movement",
+          "probability_pct": 33.0,
+          "importance": 0.33
+        },
+        {
+          "symptom": "Slurring words",
+          "probability_pct": 30.0,
+          "importance": 0.3
+        },
+        {
+          "symptom": "Difficulty speaking",
+          "probability_pct": 29.0,
+          "importance": 0.29
+        },
+        {
+          "symptom": "Depressive or psychotic symptoms",
+          "probability_pct": 27.0,
+          "importance": 0.27
+        },
+        {
+          "symptom": "Seizures",
+          "probability_pct": 23.0,
+          "importance": 0.23
+        },
+        {
+          "symptom": "Abnormal involuntary movements",
+          "probability_pct": 14.0,
+          "importance": 0.14
+        },
+        {
+          "symptom": "Disturbance of memory",
+          "probability_pct": 13.0,
+          "importance": 0.13
+        }
+      ]
+    },
+    {
+      "condition_id": "PE_001",
+      "condition_name": "Pulmonary embolism",
+      "symcat_name": "Pulmonary embolism",
+      "found_in_symcat": true,
+      "symptom_count": 12,
+      "symptoms": [
+        {
+          "symptom": "Shortness of breath",
+          "probability_pct": 73.0,
+          "importance": 0.73
+        },
+        {
+          "symptom": "Sharp chest pain",
+          "probability_pct": 65.0,
+          "importance": 0.65
+        },
+        {
+          "symptom": "Difficulty breathing",
+          "probability_pct": 35.0,
+          "importance": 0.35
+        },
+        {
+          "symptom": "Cough",
+          "probability_pct": 29.0,
+          "importance": 0.29
+        },
+        {
+          "symptom": "Leg pain",
+          "probability_pct": 24.0,
+          "importance": 0.24
+        },
+        {
+          "symptom": "Back pain",
+          "probability_pct": 24.0,
+          "importance": 0.24
+        },
+        {
+          "symptom": "Side pain",
+          "probability_pct": 23.0,
+          "importance": 0.23
+        },
+        {
+          "symptom": "Weakness",
+          "probability_pct": 21.0,
+          "importance": 0.21
+        },
+        {
+          "symptom": "Chest tightness",
+          "probability_pct": 17.0,
+          "importance": 0.17
+        },
+        {
+          "symptom": "Hemoptysis",
+          "probability_pct": 15.0,
+          "importance": 0.15
+        },
+        {
+          "symptom": "Leg swelling",
+          "probability_pct": 13.0,
+          "importance": 0.13
+        },
+        {
+          "symptom": "Sweating",
+          "probability_pct": 10.0,
+          "importance": 0.1
+        }
+      ]
+    },
+    {
+      "condition_id": "ANA_001",
+      "condition_name": "Anaphylaxis",
+      "symcat_name": "Anaphylaxis",
+      "found_in_symcat": false,
+      "symptom_count": 0,
+      "symptoms": []
+    },
+    {
+      "condition_id": "PYE_001",
+      "condition_name": "Pyelonephritis",
+      "symcat_name": "Pyelonephritis",
+      "found_in_symcat": true,
+      "symptom_count": 12,
+      "symptoms": [
+        {
+          "symptom": "Side pain",
+          "probability_pct": 75.0,
+          "importance": 0.75
+        },
+        {
+          "symptom": "Fever",
+          "probability_pct": 70.0,
+          "importance": 0.7
+        },
+        {
+          "symptom": "Sharp abdominal pain",
+          "probability_pct": 70.0,
+          "importance": 0.7
+        },
+        {
+          "symptom": "Back pain",
+          "probability_pct": 68.0,
+          "importance": 0.68
+        },
+        {
+          "symptom": "Vomiting",
+          "probability_pct": 57.0,
+          "importance": 0.57
+        },
+        {
+          "symptom": "Nausea",
+          "probability_pct": 56.0,
+          "importance": 0.56
+        },
+        {
+          "symptom": "Painful urination",
+          "probability_pct": 52.0,
+          "importance": 0.52
+        },
+        {
+          "symptom": "Low back pain",
+          "probability_pct": 40.0,
+          "importance": 0.4
+        },
+        {
+          "symptom": "Lower abdominal pain",
+          "probability_pct": 32.0,
+          "importance": 0.32
+        },
+        {
+          "symptom": "Blood in urine",
+          "probability_pct": 30.0,
+          "importance": 0.3
+        },
+        {
+          "symptom": "Suprapubic pain",
+          "probability_pct": 29.0,
+          "importance": 0.29
+        },
+        {
+          "symptom": "Frequent urination",
+          "probability_pct": 28.0,
+          "importance": 0.28
+        }
+      ]
+    },
+    {
+      "condition_id": "STRP_001",
+      "condition_name": "Strep throat",
+      "symcat_name": "Strep throat",
+      "found_in_symcat": true,
+      "symptom_count": 12,
+      "symptoms": [
+        {
+          "symptom": "Sore throat",
+          "probability_pct": 95.0,
+          "importance": 0.95
+        },
+        {
+          "symptom": "Fever",
+          "probability_pct": 85.0,
+          "importance": 0.85
+        },
+        {
+          "symptom": "Cough",
+          "probability_pct": 59.0,
+          "importance": 0.59
+        },
+        {
+          "symptom": "Headache",
+          "probability_pct": 50.0,
+          "importance": 0.5
+        },
+        {
+          "symptom": "Vomiting",
+          "probability_pct": 40.0,
+          "importance": 0.4
+        },
+        {
+          "symptom": "Ear pain",
+          "probability_pct": 39.0,
+          "importance": 0.39
+        },
+        {
+          "symptom": "Nasal congestion",
+          "probability_pct": 38.0,
+          "importance": 0.38
+        },
+        {
+          "symptom": "Skin rash",
+          "probability_pct": 32.0,
+          "importance": 0.32
+        },
+        {
+          "symptom": "Ache all over",
+          "probability_pct": 28.0,
+          "importance": 0.28
+        },
+        {
+          "symptom": "Difficulty in swallowing",
+          "probability_pct": 18.0,
+          "importance": 0.18
+        },
+        {
+          "symptom": "Chills",
+          "probability_pct": 15.0,
+          "importance": 0.15
+        },
+        {
+          "symptom": "Decreased appetite",
+          "probability_pct": 13.0,
+          "importance": 0.13
+        }
+      ]
+    },
+    {
+      "condition_id": "PNE_001",
+      "condition_name": "Pneumonia",
+      "symcat_name": "Pneumonia",
+      "found_in_symcat": true,
+      "symptom_count": 12,
+      "symptoms": [
+        {
+          "symptom": "Cough",
+          "probability_pct": 82.0,
+          "importance": 0.82
+        },
+        {
+          "symptom": "Fever",
+          "probability_pct": 75.0,
+          "importance": 0.75
+        },
+        {
+          "symptom": "Shortness of breath",
+          "probability_pct": 69.0,
+          "importance": 0.69
+        },
+        {
+          "symptom": "Sharp chest pain",
+          "probability_pct": 46.0,
+          "importance": 0.46
+        },
+        {
+          "symptom": "Nasal congestion",
+          "probability_pct": 44.0,
+          "importance": 0.44
+        },
+        {
+          "symptom": "Difficulty breathing",
+          "probability_pct": 43.0,
+          "importance": 0.43
+        },
+        {
+          "symptom": "Vomiting",
+          "probability_pct": 41.0,
+          "importance": 0.41
+        },
+        {
+          "symptom": "Weakness",
+          "probability_pct": 29.0,
+          "importance": 0.29
+        },
+        {
+          "symptom": "Sore throat",
+          "probability_pct": 26.0,
+          "importance": 0.26
+        },
+        {
+          "symptom": "Wheezing",
+          "probability_pct": 25.0,
+          "importance": 0.25
+        },
+        {
+          "symptom": "Coryza",
+          "probability_pct": 23.0,
+          "importance": 0.23
+        },
+        {
+          "symptom": "Chills",
+          "probability_pct": 20.0,
+          "importance": 0.2
+        }
+      ]
+    },
+    {
+      "condition_id": "APP_001",
+      "condition_name": "Appendicitis",
+      "symcat_name": "Appendicitis",
+      "found_in_symcat": true,
+      "symptom_count": 12,
+      "symptoms": [
+        {
+          "symptom": "Sharp abdominal pain",
+          "probability_pct": 91.0,
+          "importance": 0.91
+        },
+        {
+          "symptom": "Lower abdominal pain",
+          "probability_pct": 64.0,
+          "importance": 0.64
+        },
+        {
+          "symptom": "Vomiting",
+          "probability_pct": 57.0,
+          "importance": 0.57
+        },
+        {
+          "symptom": "Nausea",
+          "probability_pct": 54.0,
+          "importance": 0.54
+        },
+        {
+          "symptom": "Fever",
+          "probability_pct": 44.0,
+          "importance": 0.44
+        },
+        {
+          "symptom": "Burning abdominal pain",
+          "probability_pct": 41.0,
+          "importance": 0.41
+        },
+        {
+          "symptom": "Side pain",
+          "probability_pct": 29.0,
+          "importance": 0.29
+        },
+        {
+          "symptom": "Diarrhea",
+          "probability_pct": 25.0,
+          "importance": 0.25
+        },
+        {
+          "symptom": "Upper abdominal pain",
+          "probability_pct": 20.0,
+          "importance": 0.2
+        },
+        {
+          "symptom": "Chills",
+          "probability_pct": 11.0,
+          "importance": 0.11
+        },
+        {
+          "symptom": "Decreased appetite",
+          "probability_pct": 11.0,
+          "importance": 0.11
+        },
+        {
+          "symptom": "Stomach bloating",
+          "probability_pct": 5.0,
+          "importance": 0.05
+        }
+      ]
+    },
+    {
+      "condition_id": "MIG_001",
+      "condition_name": "Migraine",
+      "symcat_name": "Migraine",
+      "found_in_symcat": true,
+      "symptom_count": 10,
+      "symptoms": [
+        {
+          "symptom": "Headache",
+          "probability_pct": 90.0,
+          "importance": 0.9
+        },
+        {
+          "symptom": "Nausea",
+          "probability_pct": 46.0,
+          "importance": 0.46
+        },
+        {
+          "symptom": "Vomiting",
+          "probability_pct": 39.0,
+          "importance": 0.39
+        },
+        {
+          "symptom": "Dizziness",
+          "probability_pct": 26.0,
+          "importance": 0.26
+        },
+        {
+          "symptom": "Diminished vision",
+          "probability_pct": 17.0,
+          "importance": 0.17
+        },
+        {
+          "symptom": "Disturbance of memory",
+          "probability_pct": 7.0,
+          "importance": 0.07
+        },
+        {
+          "symptom": "Spots or clouds in vision",
+          "probability_pct": 4.0,
+          "importance": 0.04
+        },
+        {
+          "symptom": "Symptoms of the face",
+          "probability_pct": 3.0,
+          "importance": 0.03
+        },
+        {
+          "symptom": "Blindness",
+          "probability_pct": 2.0,
+          "importance": 0.02
+        },
+        {
+          "symptom": "Long menstrual periods",
+          "probability_pct": 2.0,
+          "importance": 0.02
+        }
+      ]
+    },
+    {
+      "condition_id": "COLD_001",
+      "condition_name": "Common cold",
+      "symcat_name": "Common cold",
+      "found_in_symcat": true,
+      "symptom_count": 12,
+      "symptoms": [
+        {
+          "symptom": "Cough",
+          "probability_pct": 85.0,
+          "importance": 0.85
+        },
+        {
+          "symptom": "Sore throat",
+          "probability_pct": 82.0,
+          "importance": 0.82
+        },
+        {
+          "symptom": "Fever",
+          "probability_pct": 78.0,
+          "importance": 0.78
+        },
+        {
+          "symptom": "Nasal congestion",
+          "probability_pct": 69.0,
+          "importance": 0.69
+        },
+        {
+          "symptom": "Coryza",
+          "probability_pct": 48.0,
+          "importance": 0.48
+        },
+        {
+          "symptom": "Ear pain",
+          "probability_pct": 44.0,
+          "importance": 0.44
+        },
+        {
+          "symptom": "Headache",
+          "probability_pct": 36.0,
+          "importance": 0.36
+        },
+        {
+          "symptom": "Vomiting",
+          "probability_pct": 34.0,
+          "importance": 0.34
+        },
+        {
+          "symptom": "Wheezing",
+          "probability_pct": 16.0,
+          "importance": 0.16
+        },
+        {
+          "symptom": "Congestion in chest",
+          "probability_pct": 12.0,
+          "importance": 0.12
+        },
+        {
+          "symptom": "Chills",
+          "probability_pct": 12.0,
+          "importance": 0.12
+        },
+        {
+          "symptom": "Flu-like syndrome",
+          "probability_pct": 11.0,
+          "importance": 0.11
+        }
+      ]
+    },
+    {
+      "condition_id": "GERD_001",
+      "condition_name": "GERD",
+      "symcat_name": "Gastroesophageal reflux disease (GERD)",
+      "found_in_symcat": true,
+      "symptom_count": 12,
+      "symptoms": [
+        {
+          "symptom": "Sharp chest pain",
+          "probability_pct": 44.0,
+          "importance": 0.44
+        },
+        {
+          "symptom": "Sharp abdominal pain",
+          "probability_pct": 43.0,
+          "importance": 0.43
+        },
+        {
+          "symptom": "Vomiting",
+          "probability_pct": 33.0,
+          "importance": 0.33
+        },
+        {
+          "symptom": "Heartburn",
+          "probability_pct": 33.0,
+          "importance": 0.33
+        },
+        {
+          "symptom": "Cough",
+          "probability_pct": 33.0,
+          "importance": 0.33
+        },
+        {
+          "symptom": "Nausea",
+          "probability_pct": 28.0,
+          "importance": 0.28
+        },
+        {
+          "symptom": "Burning abdominal pain",
+          "probability_pct": 21.0,
+          "importance": 0.21
+        },
+        {
+          "symptom": "Upper abdominal pain",
+          "probability_pct": 16.0,
+          "importance": 0.16
+        },
+        {
+          "symptom": "Difficulty in swallowing",
+          "probability_pct": 16.0,
+          "importance": 0.16
+        },
+        {
+          "symptom": "Regurgitation",
+          "probability_pct": 13.0,
+          "importance": 0.13
+        },
+        {
+          "symptom": "Chest tightness",
+          "probability_pct": 11.0,
+          "importance": 0.11
+        },
+        {
+          "symptom": "Hoarse voice",
+          "probability_pct": 10.0,
+          "importance": 0.1
+        }
+      ]
+    },
+    {
+      "condition_id": "UTI_001",
+      "condition_name": "Urinary tract infection",
+      "symcat_name": "Urinary tract infection",
+      "found_in_symcat": true,
+      "symptom_count": 12,
+      "symptoms": [
+        {
+          "symptom": "Painful urination",
+          "probability_pct": 65.0,
+          "importance": 0.65
+        },
+        {
+          "symptom": "Suprapubic pain",
+          "probability_pct": 60.0,
+          "importance": 0.6
+        },
+        {
+          "symptom": "Sharp abdominal pain",
+          "probability_pct": 60.0,
+          "importance": 0.6
+        },
+        {
+          "symptom": "Frequent urination",
+          "probability_pct": 46.0,
+          "importance": 0.46
+        },
+        {
+          "symptom": "Fever",
+          "probability_pct": 42.0,
+          "importance": 0.42
+        },
+        {
+          "symptom": "Vomiting",
+          "probability_pct": 40.0,
+          "importance": 0.4
+        },
+        {
+          "symptom": "Back pain",
+          "probability_pct": 36.0,
+          "importance": 0.36
+        },
+        {
+          "symptom": "Nausea",
+          "probability_pct": 35.0,
+          "importance": 0.35
+        },
+        {
+          "symptom": "Blood in urine",
+          "probability_pct": 33.0,
+          "importance": 0.33
+        },
+        {
+          "symptom": "Side pain",
+          "probability_pct": 31.0,
+          "importance": 0.31
+        },
+        {
+          "symptom": "Retention of urine",
+          "probability_pct": 26.0,
+          "importance": 0.26
+        },
+        {
+          "symptom": "Lower abdominal pain",
+          "probability_pct": 25.0,
+          "importance": 0.25
+        }
+      ]
+    },
+    {
+      "condition_id": "TH_001",
+      "condition_name": "Tension headache",
+      "symcat_name": "Tension headache",
+      "found_in_symcat": true,
+      "symptom_count": 12,
+      "symptoms": [
+        {
+          "symptom": "Headache",
+          "probability_pct": 97.0,
+          "importance": 0.97
+        },
+        {
+          "symptom": "Neck pain",
+          "probability_pct": 51.0,
+          "importance": 0.51
+        },
+        {
+          "symptom": "Nausea",
+          "probability_pct": 36.0,
+          "importance": 0.36
+        },
+        {
+          "symptom": "Dizziness",
+          "probability_pct": 32.0,
+          "importance": 0.32
+        },
+        {
+          "symptom": "Anxiety and nervousness",
+          "probability_pct": 28.0,
+          "importance": 0.28
+        },
+        {
+          "symptom": "Chills",
+          "probability_pct": 11.0,
+          "importance": 0.11
+        },
+        {
+          "symptom": "Neck stiffness or tightness",
+          "probability_pct": 5.0,
+          "importance": 0.05
+        },
+        {
+          "symptom": "Painful menstruation",
+          "probability_pct": 5.0,
+          "importance": 0.05
+        },
+        {
+          "symptom": "Painful sinuses",
+          "probability_pct": 5.0,
+          "importance": 0.05
+        },
+        {
+          "symptom": "Symptoms of the face",
+          "probability_pct": 5.0,
+          "importance": 0.05
+        },
+        {
+          "symptom": "Bleeding from ear",
+          "probability_pct": 2.0,
+          "importance": 0.02
+        },
+        {
+          "symptom": "Back cramps or spasms",
+          "probability_pct": 2.0,
+          "importance": 0.02
+        }
+      ]
+    },
+    {
+      "condition_id": "AR_001",
+      "condition_name": "Allergic rhinitis",
+      "symcat_name": "Allergic rhinitis",
+      "found_in_symcat": false,
+      "symptom_count": 0,
+      "symptoms": []
+    },
+    {
+      "condition_id": "GE_001",
+      "condition_name": "Gastroenteritis",
+      "symcat_name": "Noninfectious gastroenteritis",
+      "found_in_symcat": true,
+      "symptom_count": 12,
+      "symptoms": [
+        {
+          "symptom": "Vomiting",
+          "probability_pct": 93.0,
+          "importance": 0.93
+        },
+        {
+          "symptom": "Diarrhea",
+          "probability_pct": 88.0,
+          "importance": 0.88
+        },
+        {
+          "symptom": "Nausea",
+          "probability_pct": 75.0,
+          "importance": 0.75
+        },
+        {
+          "symptom": "Sharp abdominal pain",
+          "probability_pct": 72.0,
+          "importance": 0.72
+        },
+        {
+          "symptom": "Fever",
+          "probability_pct": 58.0,
+          "importance": 0.58
+        },
+        {
+          "symptom": "Burning abdominal pain",
+          "probability_pct": 40.0,
+          "importance": 0.4
+        },
+        {
+          "symptom": "Headache",
+          "probability_pct": 25.0,
+          "importance": 0.25
+        },
+        {
+          "symptom": "Blood in stool",
+          "probability_pct": 15.0,
+          "importance": 0.15
+        },
+        {
+          "symptom": "Decreased appetite",
+          "probability_pct": 14.0,
+          "importance": 0.14
+        },
+        {
+          "symptom": "Chills",
+          "probability_pct": 11.0,
+          "importance": 0.11
+        },
+        {
+          "symptom": "Fluid retention",
+          "probability_pct": 7.0,
+          "importance": 0.07
+        },
+        {
+          "symptom": "Rectal bleeding",
+          "probability_pct": 6.0,
+          "importance": 0.06
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+[
+  {
+    "condition_id": "MI_001",
+    "symptom": "chest pain",
+    "snomed": "29857009",
+    "importance": 0.95,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "MI_001",
+    "symptom": "left arm pain",
+    "snomed": "10601006",
+    "importance": 0.8,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "MI_001",
+    "symptom": "shortness of breath",
+    "snomed": "267036007",
+    "importance": 0.7,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "MI_001",
+    "symptom": "sweating",
+    "snomed": "415690000",
+    "importance": 0.65,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "MI_001",
+    "symptom": "nausea",
+    "snomed": "422587007",
+    "importance": 0.5,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "MI_001",
+    "symptom": "jaw pain",
+    "snomed": "274667000",
+    "importance": 0.6,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "STR_001",
+    "symptom": "sudden weakness one side",
+    "snomed": "26544005",
+    "importance": 0.95,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "STR_001",
+    "symptom": "speech difficulty",
+    "snomed": "29164008",
+    "importance": 0.9,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "STR_001",
+    "symptom": "facial drooping",
+    "snomed": "271587009",
+    "importance": 0.85,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "STR_001",
+    "symptom": "confusion",
+    "snomed": "40917007",
+    "importance": 0.7,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "STR_001",
+    "symptom": "severe headache",
+    "snomed": "25064002",
+    "importance": 0.6,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "PE_001",
+    "symptom": "shortness of breath",
+    "snomed": "267036007",
+    "importance": 0.9,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "PE_001",
+    "symptom": "chest pain",
+    "snomed": "29857009",
+    "importance": 0.8,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "PE_001",
+    "symptom": "coughing blood",
+    "snomed": "66857006",
+    "importance": 0.85,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "PE_001",
+    "symptom": "rapid heartbeat",
+    "snomed": "3424008",
+    "importance": 0.65,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "ANA_001",
+    "symptom": "swelling throat",
+    "snomed": "267102003",
+    "importance": 0.95,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "ANA_001",
+    "symptom": "difficulty breathing",
+    "snomed": "267036007",
+    "importance": 0.9,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "ANA_001",
+    "symptom": "hives",
+    "snomed": "126485001",
+    "importance": 0.8,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "ANA_001",
+    "symptom": "low blood pressure",
+    "snomed": "45007003",
+    "importance": 0.75,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "PYE_001",
+    "symptom": "burning urination",
+    "snomed": "49650001",
+    "importance": 0.85,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "PYE_001",
+    "symptom": "flank pain",
+    "snomed": "274743004",
+    "importance": 0.9,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "PYE_001",
+    "symptom": "fever",
+    "snomed": "386661006",
+    "importance": 0.8,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "PYE_001",
+    "symptom": "nausea",
+    "snomed": "422587007",
+    "importance": 0.5,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "STRP_001",
+    "symptom": "sore throat",
+    "snomed": "162397003",
+    "importance": 0.9,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "STRP_001",
+    "symptom": "fever",
+    "snomed": "386661006",
+    "importance": 0.75,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "STRP_001",
+    "symptom": "swollen lymph nodes",
+    "snomed": "30746006",
+    "importance": 0.7,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "STRP_001",
+    "symptom": "difficulty swallowing",
+    "snomed": "40739000",
+    "importance": 0.65,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "PNE_001",
+    "symptom": "cough",
+    "snomed": "49727002",
+    "importance": 0.85,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "PNE_001",
+    "symptom": "fever",
+    "snomed": "386661006",
+    "importance": 0.8,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "PNE_001",
+    "symptom": "shortness of breath",
+    "snomed": "267036007",
+    "importance": 0.75,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "PNE_001",
+    "symptom": "chest pain",
+    "snomed": "29857009",
+    "importance": 0.6,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "APP_001",
+    "symptom": "abdominal pain",
+    "snomed": "21522001",
+    "importance": 0.95,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "APP_001",
+    "symptom": "nausea",
+    "snomed": "422587007",
+    "importance": 0.65,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "APP_001",
+    "symptom": "vomiting",
+    "snomed": "422400008",
+    "importance": 0.6,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "APP_001",
+    "symptom": "fever",
+    "snomed": "386661006",
+    "importance": 0.55,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "MIG_001",
+    "symptom": "headache",
+    "snomed": "25064002",
+    "importance": 0.9,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "MIG_001",
+    "symptom": "nausea",
+    "snomed": "422587007",
+    "importance": 0.7,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "MIG_001",
+    "symptom": "sensitivity to light",
+    "snomed": "409668002",
+    "importance": 0.75,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "MIG_001",
+    "symptom": "visual disturbances",
+    "snomed": "63102001",
+    "importance": 0.65,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "COLD_001",
+    "symptom": "runny nose",
+    "snomed": "64531003",
+    "importance": 0.85,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "COLD_001",
+    "symptom": "sneezing",
+    "snomed": "162367006",
+    "importance": 0.75,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "COLD_001",
+    "symptom": "sore throat",
+    "snomed": "162397003",
+    "importance": 0.65,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "COLD_001",
+    "symptom": "cough",
+    "snomed": "49727002",
+    "importance": 0.6,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "GERD_001",
+    "symptom": "heartburn",
+    "snomed": "16331000",
+    "importance": 0.95,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "GERD_001",
+    "symptom": "chest pain",
+    "snomed": "29857009",
+    "importance": 0.6,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "GERD_001",
+    "symptom": "difficulty swallowing",
+    "snomed": "40739000",
+    "importance": 0.55,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "GERD_001",
+    "symptom": "nausea",
+    "snomed": "422587007",
+    "importance": 0.45,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "UTI_001",
+    "symptom": "burning urination",
+    "snomed": "49650001",
+    "importance": 0.9,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "UTI_001",
+    "symptom": "frequent urination",
+    "snomed": "162116003",
+    "importance": 0.8,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "UTI_001",
+    "symptom": "abdominal pain",
+    "snomed": "21522001",
+    "importance": 0.55,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "TH_001",
+    "symptom": "headache",
+    "snomed": "25064002",
+    "importance": 0.9,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "TH_001",
+    "symptom": "neck pain",
+    "snomed": "81680005",
+    "importance": 0.65,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "TH_001",
+    "symptom": "fatigue",
+    "snomed": "84229001",
+    "importance": 0.45,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "AR_001",
+    "symptom": "sneezing",
+    "snomed": "162367006",
+    "importance": 0.85,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "AR_001",
+    "symptom": "runny nose",
+    "snomed": "64531003",
+    "importance": 0.8,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "AR_001",
+    "symptom": "itchy eyes",
+    "snomed": "418290006",
+    "importance": 0.75,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "AR_001",
+    "symptom": "nasal congestion",
+    "snomed": "68235000",
+    "importance": 0.7,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "GE_001",
+    "symptom": "diarrhea",
+    "snomed": "62315008",
+    "importance": 0.9,
+    "is_cardinal": true
+  },
+  {
+    "condition_id": "GE_001",
+    "symptom": "vomiting",
+    "snomed": "422400008",
+    "importance": 0.85,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "GE_001",
+    "symptom": "abdominal pain",
+    "snomed": "21522001",
+    "importance": 0.7,
+    "is_cardinal": false
+  },
+  {
+    "condition_id": "GE_001",
+    "symptom": "fever",
+    "snomed": "386661006",
+    "importance": 0.5,
+    "is_cardinal": false
+  }
+]

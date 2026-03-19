@@ -1,0 +1,152 @@
+[
+  {
+    "condition_id": "MI_001",
+    "name": "Myocardial infarction",
+    "icd10_code": "I21.9",
+    "snomed_code": "22298006",
+    "urgency": "emergency",
+    "body_system": "cardiovascular",
+    "description": "Each year almost 800,000 Americans have a heart attack. A heart attack happens when blood flow to the heart suddenly becomes blocked. Without the blood coming in, the heart can't get oxygen. If not treated quickly, the heart muscle begins to die. But if you do get quick treatment, you may be able to prevent or limit damage to the heart muscle. That's why it's important to know the symptoms of a heart attack and call 911 if you or someone else is having them. You should call, even if you are not ",
+    "source": "MedlinePlus / NLM"
+  },
+  {
+    "condition_id": "STR_001",
+    "name": "Stroke",
+    "icd10_code": "I63.9",
+    "snomed_code": "230690007",
+    "urgency": "emergency",
+    "body_system": "neurological",
+    "description": "What is an ischemic stroke? A stroke happens when there is a loss of blood flow to part of the brain. Your brain cells cannot get the oxygen and nutrients they need from blood, and they start to die within a few minutes. This can cause lasting brain damage, long-term disability, or even death. There are two main types of strokes, ischemic and hemorrhagic. Ischemic stroke is the more common type. An ischemic stroke happens when a blood clot blocks a blood vessel in the brain. Quick treatment can ",
+    "source": "MedlinePlus / NLM"
+  },
+  {
+    "condition_id": "PE_001",
+    "name": "Pulmonary embolism",
+    "icd10_code": "I26.99",
+    "snomed_code": "59282003",
+    "urgency": "emergency",
+    "body_system": "respiratory",
+    "description": "What is a pulmonary embolism (PE)? A pulmonary embolism (PE) is a sudden blockage in a lung artery. It usually happens when a blood clot breaks loose and travels through the bloodstream to the lungs. PE is a serious condition that can cause: Permanent damage to the lungs Low oxygen levels in your blood Damage to other organs in your body from not getting enough oxygen PE can be life-threatening, especially if a clot is large, or if there are many clots. What causes a pulmonary embolism (PE)? The",
+    "source": "MedlinePlus / NLM"
+  },
+  {
+    "condition_id": "ANA_001",
+    "name": "Anaphylaxis",
+    "icd10_code": "T78.2",
+    "snomed_code": "39579001",
+    "urgency": "emergency",
+    "body_system": "immune",
+    "description": "Anaphylaxis is a serious allergic reaction. It can begin very quickly, and symptoms may be life-threatening. The most common causes are reactions to foods (especially peanuts), medications, and stinging insects. Other causes include exercise and exposure to latex. Sometimes no cause can be found. It can affect many organs: Skin - itching, hives, redness, swelling Nose - sneezing, stuffy nose, runny nose Mouth - itching, swelling of the lips or tongue Throat - itching, tightness, trouble swallowi",
+    "source": "MedlinePlus / NLM"
+  },
+  {
+    "condition_id": "PYE_001",
+    "name": "Pyelonephritis",
+    "icd10_code": "N10",
+    "snomed_code": "45816000",
+    "urgency": "urgent",
+    "body_system": "renal",
+    "description": "You have two kidneys, each about the size of your fist. They are near the middle of your back, just below the rib cage. Inside each kidney there are about a million tiny structures called nephrons. They filter your blood. They remove wastes and extra water, which become urine. The urine flows through tubes called ureters. It goes to your bladder, which stores the urine until you go to the bathroom. Most kidney diseases attack the nephrons. This damage may leave kidneys unable to remove wastes. C",
+    "source": "MedlinePlus / NLM"
+  },
+  {
+    "condition_id": "STRP_001",
+    "name": "Strep throat",
+    "icd10_code": "J02.0",
+    "snomed_code": "43878008",
+    "urgency": "urgent",
+    "body_system": "respiratory",
+    "description": "Your throat is a tube that carries food to your esophagus and air to your windpipe and larynx (also called the voice box). The technical name for the throat is pharynx. You can have a sore throat for many reasons. Often, colds and flu cause sore throats. Other causes can include: Allergies Mononucleosis Smoking Strep throat Tonsillitis Treatment depends on the cause. Sucking on lozenges, drinking lots of liquids, and gargling may ease the pain. Over-the-counter pain relievers can also help, but ",
+    "source": "MedlinePlus / NLM"
+  },
+  {
+    "condition_id": "PNE_001",
+    "name": "Pneumonia",
+    "icd10_code": "J18.9",
+    "snomed_code": "233604007",
+    "urgency": "urgent",
+    "body_system": "respiratory",
+    "description": "What is pneumonia? Pneumonia is an infection in one or both of your lungs. It causes the air sacs of your lungs to fill up with fluid or pus. Pneumonia can range from mild to severe, depending on what caused it, your age, and your overall health. What causes pneumonia? Bacterial, viral, and fungal infections can cause pneumonia. Bacteria are the most common cause. Bacterial pneumonia can occur on its own. It can also develop after you've had certain viral infections such as a cold or the flu. Se",
+    "source": "MedlinePlus / NLM"
+  },
+  {
+    "condition_id": "APP_001",
+    "name": "Appendicitis",
+    "icd10_code": "K35.80",
+    "snomed_code": "74400008",
+    "urgency": "urgent",
+    "body_system": "gastrointestinal",
+    "description": "The appendix is a small, tube-like organ attached to the first part of the large intestine. It is located in the lower right part of the abdomen. It has no known function. A blockage inside of the appendix causes appendicitis. The blockage leads to increased pressure, problems with blood flow, and inflammation. If the blockage is not treated, the appendix can burst and spread infection into the abdomen. This causes a condition called peritonitis. The main symptom is pain in the abdomen, often on",
+    "source": "MedlinePlus / NLM"
+  },
+  {
+    "condition_id": "MIG_001",
+    "name": "Migraine",
+    "icd10_code": "G43.909",
+    "snomed_code": "37796009",
+    "urgency": "routine",
+    "body_system": "neurological",
+    "description": "What are migraines? Migraines are a recurring type of headache. They cause moderate to severe pain that is throbbing or pulsing. The pain is often on one side of your head. You may also have other symptoms, such as nausea and weakness. You may be sensitive to light and sound. What causes migraines? Researchers believe that migraine has a genetic cause. There are also a number of factors that can trigger a migraine. These factors vary from person to person, and they include: Stress Anxiety Hormon",
+    "source": "MedlinePlus / NLM"
+  },
+  {
+    "condition_id": "COLD_001",
+    "name": "Common cold",
+    "icd10_code": "J00",
+    "snomed_code": "82272006",
+    "urgency": "routine",
+    "body_system": "respiratory",
+    "description": "What is the common cold? The common cold is a mild infection of your upper respiratory tract (which includes your nose and throat). Colds are probably the most common illness. Adults have an average of 2-3 colds per year, and children have even more. Colds are more common in the winter and spring, but you can get them at any time. What causes the common cold? More than 200 different viruses can cause a cold, but rhinoviruses are the most common type. The viruses that cause colds are very contagi",
+    "source": "MedlinePlus / NLM"
+  },
+  {
+    "condition_id": "GERD_001",
+    "name": "GERD",
+    "icd10_code": "K21.0",
+    "snomed_code": "235595009",
+    "urgency": "routine",
+    "body_system": "gastrointestinal",
+    "description": "What are esophagus disorders? Esophagus disorders are problems with how your esophagus works. The esophagus is the tube that carries food from your mouth to your stomach. You usually don't notice it unless you swallow something too big, hot, or cold. You might also notice it if something is wrong. When that happens, you might feel pain or have trouble swallowing (dysphagia). What causes esophagus disorders? The cause depends on the type of disorder. Some run in families. Others are linked to all",
+    "source": "MedlinePlus / NLM"
+  },
+  {
+    "condition_id": "UTI_001",
+    "name": "Urinary tract infection",
+    "icd10_code": "N39.0",
+    "snomed_code": "68566005",
+    "urgency": "routine",
+    "body_system": "renal",
+    "description": "The urinary system is the body's drainage system for removing wastes and extra water. It includes two kidneys, two ureters, a bladder, and a urethra. Urinary tract infections (UTIs) are the second most common type of infection in the body. You may have a UTI if you notice: Pain or burning when you urinate Fever, tiredness, or shakiness An urge to urinate often Pressure in your lower belly Urine that smells bad or looks cloudy or reddish Pain in your back or side below the ribs People of any age ",
+    "source": "MedlinePlus / NLM"
+  },
+  {
+    "condition_id": "TH_001",
+    "name": "Tension headache",
+    "icd10_code": "G44.209",
+    "snomed_code": "398057008",
+    "urgency": "routine",
+    "body_system": "neurological",
+    "description": "Almost everyone has had a headache. Headache is the most common form of pain. It's a major reason people miss days at work or school or visit the doctor. The most common type of headache is a tension headache. Tension headaches are due to tight muscles in your shoulders, neck, scalp and jaw. They are often related to stress, depression or anxiety. You are more likely to get tension headaches if you work too much, don't get enough sleep, miss meals, or use alcohol. Other common types of headaches",
+    "source": "MedlinePlus / NLM"
+  },
+  {
+    "condition_id": "AR_001",
+    "name": "Allergic rhinitis",
+    "icd10_code": "J30.9",
+    "snomed_code": "61582004",
+    "urgency": "routine",
+    "body_system": "respiratory",
+    "description": "An allergy is a reaction by your immune system to something that does not bother most other people. People who have allergies often are sensitive to more than one thing. Substances that often cause reactions are: Pollen Dust mites Mold spores Pet dander Food Insect stings Medicines Normally, your immune system fights germs. It is your body's defense system. In most allergic reactions, however, it is responding to a false alarm. Genes and the environment probably both play a role. Allergies can c",
+    "source": "MedlinePlus / NLM"
+  },
+  {
+    "condition_id": "GE_001",
+    "name": "Gastroenteritis",
+    "icd10_code": "K52.9",
+    "snomed_code": "25374005",
+    "urgency": "routine",
+    "body_system": "gastrointestinal",
+    "description": "When you eat, your body breaks food down to a form it can use to build and nourish cells and provide energy. This process is called digestion. Your digestive system is a series of hollow organs joined in a long, twisting tube. It runs from your mouth to your anus and includes your esophagus, stomach, and small and large intestines. Your liver, gallbladder and pancreas are also involved. They produce juices to help digestion. There are many types of digestive disorders. The symptoms vary widely d",
+    "source": "MedlinePlus / NLM"
+  }
+]

@@ -1,0 +1,261 @@
+[
+  {
+    "term": "chest pain",
+    "snomed_code": "29857009",
+    "snomed_label": "Chest pain (finding)",
+    "icd10_code": "R07.9",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "shortness of breath",
+    "snomed_code": "267036007",
+    "snomed_label": "Dyspnea (finding)",
+    "icd10_code": "R06.0",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "headache",
+    "snomed_code": "25064002",
+    "snomed_label": "Headache (finding)",
+    "icd10_code": "R51",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "nausea",
+    "snomed_code": "422587007",
+    "snomed_label": "Nausea (finding)",
+    "icd10_code": "R11.0",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "vomiting",
+    "snomed_code": "422400008",
+    "snomed_label": "Vomiting (disorder)",
+    "icd10_code": "R11.1",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "fever",
+    "snomed_code": "386661006",
+    "snomed_label": "Fever (finding)",
+    "icd10_code": "R50.9",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "cough",
+    "snomed_code": "49727002",
+    "snomed_label": "Cough (finding)",
+    "icd10_code": "R05",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "abdominal pain",
+    "snomed_code": "21522001",
+    "snomed_label": "Abdominal pain (finding)",
+    "icd10_code": "R10.9",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "diarrhea",
+    "snomed_code": "62315008",
+    "snomed_label": "Diarrhea (finding)",
+    "icd10_code": "R19.7",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "fatigue",
+    "snomed_code": "84229001",
+    "snomed_label": "Fatigue (finding)",
+    "icd10_code": "R53.83",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "sweating",
+    "snomed_code": "415690000",
+    "snomed_label": "Diaphoresis (finding)",
+    "icd10_code": "R61",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "sore throat",
+    "snomed_code": "162397003",
+    "snomed_label": "Pain in throat (finding)",
+    "icd10_code": "R07.0",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "runny nose",
+    "snomed_code": "64531003",
+    "snomed_label": "Nasal discharge (finding)",
+    "icd10_code": "R09.89",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "burning urination",
+    "snomed_code": "49650001",
+    "snomed_label": "Dysuria (finding)",
+    "icd10_code": "R30.0",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "left arm pain",
+    "snomed_code": "10601006",
+    "snomed_label": "Pain in left arm (finding)",
+    "icd10_code": "M79.602",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "jaw pain",
+    "snomed_code": "274667000",
+    "snomed_label": "Pain in jaw (finding)",
+    "icd10_code": "R68.84",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "sensitivity to light",
+    "snomed_code": "409668002",
+    "snomed_label": "Photophobia (finding)",
+    "icd10_code": "H53.14",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "flank pain",
+    "snomed_code": "274743004",
+    "snomed_label": "Flank pain (finding)",
+    "icd10_code": "R10.9",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "frequent urination",
+    "snomed_code": "162116003",
+    "snomed_label": "Urinary frequency (finding)",
+    "icd10_code": "R35.0",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "heartburn",
+    "snomed_code": "16331000",
+    "snomed_label": "Heartburn (finding)",
+    "icd10_code": "R12",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "sneezing",
+    "snomed_code": "162367006",
+    "snomed_label": "Sneezing (finding)",
+    "icd10_code": "R06.7",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "difficulty swallowing",
+    "snomed_code": "40739000",
+    "snomed_label": "Dysphagia (disorder)",
+    "icd10_code": "R13.10",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "rapid heartbeat",
+    "snomed_code": "3424008",
+    "snomed_label": "Tachycardia (finding)",
+    "icd10_code": "R00.0",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "confusion",
+    "snomed_code": "40917007",
+    "snomed_label": "Confusion (finding)",
+    "icd10_code": "R41.0",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "swollen lymph nodes",
+    "snomed_code": "30746006",
+    "snomed_label": "Lymphadenopathy (disorder)",
+    "icd10_code": "R59.9",
+    "semantic_type": "Clinical Finding"
+  },
+  {
+    "term": "hives",
+    "snomed_code": "126485001",
+    "snomed_label": "Urticaria (disorder)",
+    "icd10_code": "L50.9",
+    "semantic_type": "Clinical Finding"
+  },
+  {
+    "term": "neck pain",
+    "snomed_code": "81680005",
+    "snomed_label": "Neck pain (finding)",
+    "icd10_code": "M54.2",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "itchy eyes",
+    "snomed_code": "418290006",
+    "snomed_label": "Itching of eye (finding)",
+    "icd10_code": "H57.19",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "nasal congestion",
+    "snomed_code": "68235000",
+    "snomed_label": "Nasal congestion (finding)",
+    "icd10_code": "R09.81",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "visual disturbances",
+    "snomed_code": "63102001",
+    "snomed_label": "Visual disturbance (finding)",
+    "icd10_code": "H53.9",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "facial drooping",
+    "snomed_code": "271587009",
+    "snomed_label": "Facial asymmetry (finding)",
+    "icd10_code": "R29.810",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "speech difficulty",
+    "snomed_code": "29164008",
+    "snomed_label": "Dysarthria (finding)",
+    "icd10_code": "R47.1",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "swelling throat",
+    "snomed_code": "267102003",
+    "snomed_label": "Swelling of throat (finding)",
+    "icd10_code": "R22.1",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "low blood pressure",
+    "snomed_code": "45007003",
+    "snomed_label": "Hypotension (disorder)",
+    "icd10_code": "I95.9",
+    "semantic_type": "Clinical Finding"
+  },
+  {
+    "term": "coughing blood",
+    "snomed_code": "66857006",
+    "snomed_label": "Hemoptysis (finding)",
+    "icd10_code": "R04.2",
+    "semantic_type": "Sign or Symptom"
+  },
+  {
+    "term": "sudden weakness one side",
+    "snomed_code": "26544005",
+    "snomed_label": "Hemiparesis (finding)",
+    "icd10_code": "G81.9",
+    "semantic_type": "Clinical Finding"
+  },
+  {
+    "term": "difficulty breathing",
+    "snomed_code": "267036007",
+    "snomed_label": "Dyspnea (finding)",
+    "icd10_code": "R06.0",
+    "semantic_type": "Sign or Symptom"
+  }
+]

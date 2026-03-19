@@ -1,0 +1,196 @@
+[
+  {
+    "condition_id": "MI_001",
+    "urgency_level": "emergency",
+    "recommendation": "Call 911/112 immediately",
+    "self_care": [
+      "Chew 325mg aspirin",
+      "Sit upright and stay calm",
+      "Do NOT drive yourself",
+      "Unlock front door for paramedics"
+    ],
+    "specialist_type": "cardiologist",
+    "source": "AHA Guidelines"
+  },
+  {
+    "condition_id": "STR_001",
+    "urgency_level": "emergency",
+    "recommendation": "Call 911 immediately — FAST protocol",
+    "self_care": [
+      "Note the time symptoms started",
+      "Do NOT give food or drink",
+      "Lay person on side if vomiting",
+      "Do NOT take aspirin unless told"
+    ],
+    "specialist_type": "neurologist",
+    "source": "AHA/ASA Stroke Guidelines"
+  },
+  {
+    "condition_id": "PE_001",
+    "urgency_level": "emergency",
+    "recommendation": "Call 911 — requires immediate anticoagulation",
+    "self_care": [
+      "Sit upright to ease breathing",
+      "Stay calm",
+      "Do NOT walk or exert yourself"
+    ],
+    "specialist_type": "pulmonologist",
+    "source": "ESC PE Guidelines"
+  },
+  {
+    "condition_id": "ANA_001",
+    "urgency_level": "emergency",
+    "recommendation": "Use EpiPen if available, call 911",
+    "self_care": [
+      "Administer epinephrine auto-injector",
+      "Call 911",
+      "Lay flat with legs elevated",
+      "Second EpiPen after 5 min if no improvement"
+    ],
+    "specialist_type": "allergist",
+    "source": "ACAAI Anaphylaxis Guidelines"
+  },
+  {
+    "condition_id": "PYE_001",
+    "urgency_level": "urgent",
+    "recommendation": "See doctor within 24 hours — antibiotics needed",
+    "self_care": [
+      "Take Trimethoprim-Sulfamethoxazole (Bactrim) if prescribed",
+      "Take Ibuprofen for pain and fever",
+      "Drink plenty of water",
+      "Apply heating pad to lower back"
+    ],
+    "specialist_type": "urologist",
+    "source": "AUA Guidelines"
+  },
+  {
+    "condition_id": "STRP_001",
+    "urgency_level": "urgent",
+    "recommendation": "See doctor within 24-48 hours for antibiotics",
+    "self_care": [
+      "Gargle warm salt water",
+      "Take acetaminophen for pain",
+      "Drink warm fluids",
+      "Rest voice"
+    ],
+    "specialist_type": "ENT",
+    "source": "IDSA Guidelines"
+  },
+  {
+    "condition_id": "PNE_001",
+    "urgency_level": "urgent",
+    "recommendation": "See doctor today — may need antibiotics or chest X-ray",
+    "self_care": [
+      "Rest and stay hydrated",
+      "Take acetaminophen for fever",
+      "Use humidifier",
+      "Do NOT suppress productive cough"
+    ],
+    "specialist_type": "pulmonologist",
+    "source": "ATS/IDSA Guidelines"
+  },
+  {
+    "condition_id": "APP_001",
+    "urgency_level": "urgent",
+    "recommendation": "Go to ER — may need surgical evaluation",
+    "self_care": [
+      "Do NOT eat or drink (in case surgery needed)",
+      "Do NOT take laxatives",
+      "Apply ice pack (not heat) to abdomen",
+      "Go to nearest ER"
+    ],
+    "specialist_type": "general surgeon",
+    "source": "SAGES Guidelines"
+  },
+  {
+    "condition_id": "MIG_001",
+    "urgency_level": "routine",
+    "recommendation": "Rest in a dark, quiet room",
+    "self_care": [
+      "Take Sumatriptan (triptan) for acute relief",
+      "Take Ibuprofen as backup pain relief",
+      "Apply cold compress to forehead",
+      "Stay hydrated"
+    ],
+    "specialist_type": "neurologist",
+    "source": "AHS Migraine Guidelines"
+  },
+  {
+    "condition_id": "COLD_001",
+    "urgency_level": "routine",
+    "recommendation": "Self-care at home — usually resolves in 7-10 days",
+    "self_care": [
+      "Rest and stay hydrated",
+      "Take acetaminophen or ibuprofen for symptoms",
+      "Use saline nasal spray",
+      "Honey for cough (adults only)"
+    ],
+    "specialist_type": "",
+    "source": "CDC Common Cold Guidelines"
+  },
+  {
+    "condition_id": "GERD_001",
+    "urgency_level": "routine",
+    "recommendation": "Lifestyle changes + OTC antacids",
+    "self_care": [
+      "Take antacids (Tums, Maalox)",
+      "Avoid trigger foods (spicy, acidic, fatty)",
+      "Elevate head of bed 6 inches",
+      "Don't eat 3 hours before bed"
+    ],
+    "specialist_type": "gastroenterologist",
+    "source": "ACG GERD Guidelines"
+  },
+  {
+    "condition_id": "UTI_001",
+    "urgency_level": "routine",
+    "recommendation": "See doctor for antibiotics — usually resolves quickly",
+    "self_care": [
+      "Drink plenty of water",
+      "Take AZO (phenazopyridine) for pain relief",
+      "Avoid caffeine and alcohol",
+      "Wipe front to back"
+    ],
+    "specialist_type": "urologist",
+    "source": "AUA Guidelines"
+  },
+  {
+    "condition_id": "TH_001",
+    "urgency_level": "routine",
+    "recommendation": "OTC pain relief + stress management",
+    "self_care": [
+      "Take acetaminophen or ibuprofen",
+      "Apply warm compress to neck/shoulders",
+      "Practice relaxation techniques",
+      "Ensure regular sleep schedule"
+    ],
+    "specialist_type": "neurologist",
+    "source": "AHS Headache Guidelines"
+  },
+  {
+    "condition_id": "AR_001",
+    "urgency_level": "routine",
+    "recommendation": "Antihistamines + allergen avoidance",
+    "self_care": [
+      "Take cetirizine (Zyrtec) or loratadine (Claritin)",
+      "Use nasal corticosteroid spray",
+      "Keep windows closed during high pollen",
+      "Shower after outdoor activity"
+    ],
+    "specialist_type": "allergist",
+    "source": "AAAAI Rhinitis Guidelines"
+  },
+  {
+    "condition_id": "GE_001",
+    "urgency_level": "routine",
+    "recommendation": "Hydration and rest — see doctor if lasts >3 days",
+    "self_care": [
+      "Oral rehydration solution (ORS) or Pedialyte",
+      "BRAT diet (bananas, rice, applesauce, toast)",
+      "Avoid dairy and fatty foods",
+      "Take Imodium for diarrhea if needed"
+    ],
+    "specialist_type": "gastroenterologist",
+    "source": "ACG Guidelines"
+  }
+]
